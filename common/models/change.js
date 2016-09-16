@@ -7,9 +7,7 @@
  * Module Dependencies.
  */
 
-var g = require('strong-globalize')();
-
-var PersistedModel = require('../../lib/loopback').PersistedModel;
+var g = require('../../lib/globalize');
 var loopback = require('../../lib/loopback');
 var utils = require('../../lib/utils');
 var crypto = require('crypto');
